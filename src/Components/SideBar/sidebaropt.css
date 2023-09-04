@@ -1,0 +1,45 @@
+.sidebaropt{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 0px 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
+}
+.sidebaropt:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.sidebaropt svg {
+    color: rgd(94,94,94);
+    font-size: 20px;
+    width: 20px;
+}
+
+.sidebaropt h4{
+    font-size: 14px;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.sidebaropt svg{
+    color: grey;
+}
+.sidebaropt p{
+    opacity: 1;
+    color: rgb(94,94,94);
+    font-size: 12px;
+}
+
+.sidebaropt-active{
+    background-color: #c2e7ff;
+}
+
+.sidebaropt-active h4,
+.sidebaropt-active p,
+.sidebaropt-active svg
+{
+    color: black;
+    font-weight: bold;
+}

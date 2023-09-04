@@ -1,0 +1,98 @@
+.details_Message{
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px rgb(223, 222, 222);
+    border-radius: 15px;
+    height: 140% !important;
+}
+.emaillist_set{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+}
+.emaillist_set_left{
+    margin-left: 15px;
+}
+.emaillist_set svg{
+    font-size: 18px;
+}
+
+.emaillist_set_right{
+    display: flex;
+    align-items: center;
+}
+
+.detailshead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.head_left h4{
+    padding-left: 45px;
+    font-weight: normal;
+    font-size: 23px;
+}
+.head_right svg{
+    font-size: 18px;
+    color: gray;
+    padding: 15px;
+}
+.detailsmiddle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.middle_left {
+    display: flex;
+    align-items: center;
+} 
+.middle_left p{
+    padding-top: 3px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.middle_left h4{
+    margin-left: 10px;
+}
+
+.middle_right p{
+    font-size: 14px;
+}
+.middle_right{
+    display: flex;
+    align-items: center;
+}
+.detailsmiddle svg{
+    font-size:  18px;
+}
+
+.detailsbody{
+    margin-left: 75px;
+    margin-right: 25px;
+}
+
+.details_btn{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.reply {
+    margin-right: 10px !important;
+    border-radius: 20px !important;
+    color: gray !important;
+    border-color: gray !important;
+    font-family: 'Roboto' !important;
+}
+.forward{
+    border-radius: 20px !important;
+    color: gray !important;
+    border-color: gray !important;
+    font-family: 'Roboto' !important;
+}

@@ -1,0 +1,17 @@
+.emaillist_set{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+}
+ 
+.emaillist_set svg{
+    font-size: 18px;
+}
+
+.emaillist_set_right{
+    display: flex;
+    align-items: center;
+}
